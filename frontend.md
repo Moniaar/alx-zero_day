@@ -20,5 +20,23 @@ It's a short way to type a JS function, without including return, parenthesis, a
 - They're not hoisted: you need to declare the function before using it. 
 - They don't have thier own "this" and they're not suitable for dealing with objects methods. 
 - You can only omit the return keyword and the curly brackets if the function is a single statement.
- Which is better, const or var? 
+
+Which is better, const or var? 
 Const, because functions expressions always return constant values. 
+##Object Destructuring:
+You define an object in a JSON format first, then go declare a new one by defining new values for it by assigning array values and object properties to variables:
+```
+// Create an Object
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+// Destructuring Assignment
+let { firstName, age } = person;
+```
+Two things to note here before saying goodbye:
+- When destructuring an object, you must use the same name for the variables as the corresponding object keys (names).
+- The order of the keys (names) does not matter. 
