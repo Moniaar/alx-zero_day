@@ -9,7 +9,16 @@ Examples for an active one can be:
 
 Now back to learning using asking questions method (Active recall), look at these 3 questions:
 ### What ES6 is? :
-
+The Seconed major revision of JS, It's ECMAScript 2015 which is also known as ES6 and ECMAScript 6.
 ### New features introduced in ES6? :
-
+It's supported from various browsers since 2017, however it is not supported in Internet Explorer. 
 ### The difference between a constant and a variable? :
+let makes you declare a variable, const used to declare a constant. However, keep in mind that Constants are similar to let variables, except that the value cannot be changed. 
+
+## Arrow functions
+It's a short way to type a JS function, without including return, parenthesis, and the word function. However they have important features you need to keep in mind:
+- They're not hoisted: you need to declare the function before using it. 
+- They don't have thier own "this" and they're not suitable for dealing with objects methods. 
+- You can only omit the return keyword and the curly brackets if the function is a single statement.
+ Which is better, const or var? 
+Const, because functions expressions always return constant values. 
