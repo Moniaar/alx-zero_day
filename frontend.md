@@ -44,6 +44,54 @@ Two things to note here before saying goodbye:
 
 ## Array Destructuring (Has same rules as object Destructuring! :)):
 It makes it easy to assign array values and object properties to variables. 
+```
+// Create an Array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// Destructuring Assignment
+let [fruit1, fruit2] = fruits; 
+```
 
 ## The ... Operator:
-The "spread" operator spreads elements of iterable objects "يفكك العناصر الموجودة داخل المصفوفة". 
+The "spread" operator spreads elements of iterable objects "يفكك العناصر الموجودة داخل المصفوفة". It can also be used to expand an iterable into more arguments for function calls. 
+
+## For/of loop:
+It lets you loop over data structures that are iterable such as Arrays, Strings, Maps, NodeLists, and more. Here is an example of iterating through a string:
+```
+let language = "JavaScript";
+let text = "";
+
+for (let x of language) {
+    text += x + " ";
+} 
+```
+
+## Maps:
+
+## Sets:
+```
+// Create a Set
+const letters = new Set();
+
+// Add some values to the Set
+letters.add("a");
+letters.add("b");
+letters.add("c"); 
+```
+
+### Classes:
+JavaScript class is not an object. They're considered templates for JavaScript Objects only. We Use the keyword class to create a class and Always add a method named constructor(). Here is the syntax with an example: 
+```
+class ClassName {
+  constructor() { ... }
+}
+```
+The example:
+```
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+} 
+```
