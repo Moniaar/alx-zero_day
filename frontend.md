@@ -6,3 +6,10 @@ We have to ways to do that:
 Examples for an active one can be:
 - Pycodestyle for python 
 - ESLint for JS 
+
+Now back to learning using asking questions method (Active recall), look at these 3 questions:
+### What ES6 is? :
+
+### New features introduced in ES6? :
+
+### The difference between a constant and a variable? :
