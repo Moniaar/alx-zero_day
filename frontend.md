@@ -1,4 +1,5 @@
-What does it mean to lint a code?it means to have a set rules of structures to highlight the issues within your code, weather it is syntax or undeclared variables bug, it will handle that for you by pointing at it. 
+#### What does it mean to lint a code?:
+It means to have a set rules of structures to highlight the issues within your code, weather it is syntax or undeclared variables bug, it will handle that for you by pointing at it. 
 We have to ways to do that:
 1. Passive: done by taking a piece of code, and manually running it through a tool to identify potential issues. Either by running the file using the command line, or copying your code and pasting it in a specific linter tool. Examples for this can be: JSON Formatter to validate a JSON data structure
 
@@ -95,3 +96,5 @@ class Car {
   }
 } 
 ```
+Creating objects from the previous class:
+```const myCar1 = new Car("Ford", 2014); ```
