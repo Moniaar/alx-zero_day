@@ -23,6 +23,7 @@ It's a short way to type a JS function, without including return, parenthesis, a
 
 Which is better, const or var? 
 Const, because functions expressions always return constant values. 
+
 ##Object Destructuring:
 You define an object in a JSON format first, then go declare a new one by defining new values for it by assigning array values and object properties to variables:
 ```
@@ -40,3 +41,9 @@ let { firstName, age } = person;
 Two things to note here before saying goodbye:
 - When destructuring an object, you must use the same name for the variables as the corresponding object keys (names).
 - The order of the keys (names) does not matter. 
+
+## Array Destructuring (Has same rules as object Destructuring! :)):
+It makes it easy to assign array values and object properties to variables. 
+
+## The ... Operator:
+The "spread" operator spreads elements of iterable objects "يفكك العناصر الموجودة داخل المصفوفة". 
